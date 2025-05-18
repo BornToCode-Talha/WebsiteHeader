@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    text-decoration: none;
+}
+.navbar {
+    background: crimson;
+    font-family: 'calibri' ;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ .logo a {
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+ 
+}
+li {
+    list-style: none;
+    display: inline-block;
+    
+}
+li a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px ;
+}
+button {
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 90px;
+}
+button a {
+    color: white;
+    font: bold;
+ font-size: 15px;
+}
+ 
